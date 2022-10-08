@@ -1,0 +1,10 @@
+1. Capitalise --- catitals the letters
+2.casefold ----- covert the string into lower case
+3.cat ---- concatenation
+4.centre ---- padding of empty strings all around of your string
+5.count --- 
+6.endswith --- 
+7.find --- find the position of the data
+8.get --- 
+9.get_dummies ----
+10.

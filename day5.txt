@@ -1,0 +1,81 @@
+d1={'name':['yash','shubham','hemant'],'semester':[2,3,4]}
+print(d1)
+{'name': ['yash', 'shubham', 'hemant'], 'semester': [2, 3, 4]}
+d1['name'] += ['bunny']
+print(d1)
+{'name': ['yash', 'shubham', 'hemant', 'bunny'], 'semester': [2, 3, 4]}
+d1['name'] += 'bunny'
+print(d1)
+{'name': ['yash', 'shubham', 'hemant', 'bunny', 'b', 'u', 'n', 'n', 'y'], 'semester': [2, 3, 4]}
+d1
+{'name': ['yash', 'shubham', 'hemant', 'bunny', 'b', 'u', 'n', 'n', 'y'], 'semester': [2, 3, 4]}
+d1['name']
+['yash', 'shubham', 'hemant', 'bunny', 'b', 'u', 'n', 'n', 'y']
+d1['name'].insert(1,'ronak')
+d1
+{'name': ['yash', 'ronak', 'shubham', 'hemant', 'bunny', 'b', 'u', 'n', 'n', 'y'], 'semester': [2, 3, 4]}
+d1['name']
+['yash', 'ronak', 'shubham', 'hemant', 'bunny', 'b', 'u', 'n', 'n', 'y']
+d1['sem']= d1.pop('semester')
+d1
+{'name': ['yash', 'ronak', 'shubham', 'hemant', 'bunny', 'b', 'u', 'n', 'n', 'y'], 'sem': [2, 3, 4]}
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+LOOP:
+---------------------
+1.For Loop
+2. While Loop
+3.Do While Loop
+
+
+for i in [1,2,3,4,5]:
+print(i)
+-----------------------------------
+add a new value in tuple
+t =[12,15,18,21]
+print('Tuple:' , t)
+---------------------------------------------------
+while loop
+num = 1
+while n<=5:
+----------------------------------------------
+
+continous and break
+----------------------------------------
+FUNCTION :
+--------------------
+1. NO i/p NO o/p
+2. NO i/p BUT o/p
+3. i/p but NO o/p
+4.O/p and i/p
+-------------------------------------------------
+1.Taking Multiple i/p
+2.Returning Multiple o/p
+3.Keyword Argument
+4.Default values
+5. *args
+6**kwargs
+----------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

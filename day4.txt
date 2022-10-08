@@ -1,0 +1,58 @@
+1. String
+------------
+1. Indexing
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+DATA TYPE DICTIONARY
+-------------------------------
+1.Unordered
+2.Key value pair
+3.Indexing/slicing not possible
+-----------------------------------------
+3. Statements
+1.Condition/Decision Making -- if-elif-else(suites/indexing)
+2. Looping -- For and While
+3. Exception Handling ---- try,Except
+----------------------------------------------------------------------------------------
+Simple if
+-----------------------------------
+if age < 18 :
+            print("A gift")
+if age > 18 and age <= 20 :
+            print("a gift ")
+            print("a task")
+if age > 20 :
+            print("Koi gift nhiii h")
+--------------------------------------------------------------------------------------
+Ladder
+----------------
+if age < 18 :
+            print("A gift")
+elif age > 18 and age <= 20 :
+            print("a gift ")
+            print("a task")
+else  :
+        print("Koi gift nhiii h")
+----------------------------------------------------------------------------------------
+Nested
+---------------------
+today = input("Enter DAY NAME:")
+condition=input("Enter THE CONDITION")
+if today == 'Saturday':
+    print("Half Day Work")
+elif today == 'Sunday' :
+    if condition == 'Sick':
+        print('TAKE CARE')
+    else :
+        print('PARTY')
+---------------------------------------------
+range(start point(including),stop point(excluding),step)
+                                        (by default 0)
+--------------------------------------------------------------------------------
+       
+
+
+
+          
+
+

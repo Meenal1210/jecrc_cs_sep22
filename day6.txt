@@ -1,0 +1,6 @@
+Module -------- it is an .py file; Ex: OS,Math 
+Packages -------- it is a collection of Modules ....... init .... .py
+Libraries ------ it is a collection of Packages
+
+-------------------------------------------
+pip install pandas2

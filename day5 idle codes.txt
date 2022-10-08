@@ -1,0 +1,371 @@
+d1={'name':['yash','shubham','hemant'],'semester':[2,3,4]}
+print(d1)
+{'name': ['yash', 'shubham', 'hemant'], 'semester': [2, 3, 4]}
+d1['name'] += ['bunny']
+print(d1)
+{'name': ['yash', 'shubham', 'hemant', 'bunny'], 'semester': [2, 3, 4]}
+d1['name'] += 'bunny'
+print(d1)
+{'name': ['yash', 'shubham', 'hemant', 'bunny', 'b', 'u', 'n', 'n', 'y'], 'semester': [2, 3, 4]}
+d1
+{'name': ['yash', 'shubham', 'hemant', 'bunny', 'b', 'u', 'n', 'n', 'y'], 'semester': [2, 3, 4]}
+d1['name']
+['yash', 'shubham', 'hemant', 'bunny', 'b', 'u', 'n', 'n', 'y']
+d1['name'].insert(1,'ronak')
+d1
+{'name': ['yash', 'ronak', 'shubham', 'hemant', 'bunny', 'b', 'u', 'n', 'n', 'y'], 'semester': [2, 3, 4]}
+d1['name']
+['yash', 'ronak', 'shubham', 'hemant', 'bunny', 'b', 'u', 'n', 'n', 'y']
+d1['sem']= d1.pop('semester')
+d1
+{'name': ['yash', 'ronak', 'shubham', 'hemant', 'bunny', 'b', 'u', 'n', 'n', 'y'], 'sem': [2, 3, 4]}
+#f-string/string format
+a = 'Yash'
+b = 'CA'
+'Hi (a) welcome to (b) stream '
+'Hi (a) welcome to (b) stream '
+f'Hi (a) welcome to (b) stream '
+'Hi (a) welcome to (b) stream '
+f'Hi {a} welcome to {b} stream'
+'Hi Yash welcome to CA stream'
+#STRING FORMAT
+#STRING FORMAT
+for i in [1,2,3,4,5]:
+print(i)
+SyntaxError: expected an indented block after 'for' statement on line 1
+for i in [1,2,3,4,5]:print(i)
+
+1
+2
+3
+4
+5
+for i in('a','b','c','d','e')
+SyntaxError: expected ':'
+for i in('a','b','c','d','e'):
+    print(i)
+
+    
+a
+b
+c
+d
+e
+for i in 'Hello World':
+    print(i)
+
+    
+H
+e
+l
+l
+o
+ 
+W
+o
+r
+l
+d
+for i in 'Hello' 'World':
+    print(i)
+
+    
+H
+e
+l
+l
+o
+W
+o
+r
+l
+d
+for i in 'HelloWorld':
+    print('HelloWorld')
+
+    
+HelloWorld
+HelloWorld
+HelloWorld
+HelloWorld
+HelloWorld
+HelloWorld
+HelloWorld
+HelloWorld
+HelloWorld
+HelloWorld
+for x in 'HelloWorld':
+    print(x)
+
+    
+H
+e
+l
+l
+o
+W
+o
+r
+l
+d
+#x is a LOCAL VARIABLE (you can put any alphabet other than x on this place
+KeyboardInterrupt
+for i in 'HelloWorld':
+    print(x)
+    print('Hello')
+
+    
+d
+Hello
+d
+Hello
+d
+Hello
+d
+Hello
+d
+Hello
+d
+Hello
+d
+Hello
+d
+Hello
+d
+Hello
+d
+Hello
+for x in 'HelloWorld':
+    print(x)
+    print('Hello')
+
+    
+H
+Hello
+e
+Hello
+l
+Hello
+l
+Hello
+o
+Hello
+W
+Hello
+o
+Hello
+r
+Hello
+l
+Hello
+d
+Hello
+for x in 'HelloWorld':
+    print(x)
+    print('Hello')
+    print('helloworld')
+
+    
+H
+Hello
+helloworld
+e
+Hello
+helloworld
+l
+Hello
+helloworld
+l
+Hello
+helloworld
+o
+Hello
+helloworld
+W
+Hello
+helloworld
+o
+Hello
+helloworld
+r
+Hello
+helloworld
+l
+Hello
+helloworld
+d
+Hello
+helloworld
+for x in 'HelloWorld':
+    print(x)
+    print('Hello')
+print('helloworld')
+SyntaxError: invalid syntax
+for x in "Hello":
+    print(x)
+    print('Hello')
+print('helloworld')
+SyntaxError: invalid syntax
+for x in "Hello":
+    print(x)
+    print('Hello')
+print('helloworld')
+SyntaxError: invalid syntax
+for x in "Hello":
+    print(x)
+    print('Hello')print('helloworld')
+    
+SyntaxError: invalid syntax
+
+for x in "Hello":
+    print(x)
+    print('Hello')
+    print('helloworld')
+
+    
+H
+Hello
+helloworld
+e
+Hello
+helloworld
+l
+Hello
+helloworld
+l
+Hello
+helloworld
+o
+Hello
+helloworld
+for i in range(6):
+    print(i)
+
+    
+0
+1
+2
+3
+4
+5
+for i in range(1,6):
+    print(i)
+
+    
+1
+2
+3
+4
+5
+t = [12,15,18,21]
+KeyboardInterrupt
+
+print('Tuple:' , t)
+Tuple: [12, 15, 18, 21]
+for i in range(len(t))
+SyntaxError: expected ':'
+for i in range(len(t)):
+    t[i]=t[i]+1
+    print('List:',t)
+
+    
+List: [13, 15, 18, 21]
+List: [13, 16, 18, 21]
+List: [13, 16, 19, 21]
+List: [13, 16, 19, 22]
+for i in range(len(t)):
+    t[i]=t[i]+1
+print('List:',t)
+SyntaxError: invalid syntax
+KeyboardInterrupt
+
+======== RESTART: C:/Users/Meenal Jain/Desktop/ML Training/day5.py ========
+List: [13, 16, 19, 22]
+
+======== RESTART: C:/Users/Meenal Jain/Desktop/ML Training/day5.py ========
+[13, 16, 19, 22]
+
+= RESTART: C:/Users/Meenal Jain/Desktop/ML Training/day5.py
+Traceback (most recent call last):
+  File "C:/Users/Meenal Jain/Desktop/ML Training/day5.py", line 22, in <module>
+    if n%2==0 and i>10:
+NameError: name 'n' is not defined
+
+= RESTART: C:/Users/Meenal Jain/Desktop/ML Training/day5.py
+12
+18
+20
+16
+
+= RESTART: C:/Users/Meenal Jain/Desktop/ML Training/day5.py
+Traceback (most recent call last):
+  File "C:/Users/Meenal Jain/Desktop/ML Training/day5.py", line 26, in <module>
+    while n<=5:
+NameError: name 'n' is not defined
+
+= RESTART: C:/Users/Meenal Jain/Desktop/ML Training/day5.py
+Traceback (most recent call last):
+  File "C:/Users/Meenal Jain/Desktop/ML Training/day5.py", line 26, in <module>
+    while n<=5:
+NameError: name 'n' is not defined
+
+= RESTART: C:/Users/Meenal Jain/Desktop/ML Training/day5.py
+Hello
+Hello
+Hello
+Hello
+Hello
+
+= RESTART: C:/Users/Meenal Jain/Desktop/ML Training/day5.py
+This is an infinite Loop
+This is an infinite Loop
+This is an infinite Loop
+This is an infinite Loop
+This is an infinite Loop
+This is an infinite Loop
+This is an infinite Loop
+This is an infinite Loop
+This is an infinite Loop
+This is an infinite Loop
+This is an infinite Loop
+This is an infinite Loop
+This is an infinite Loop
+This is an infinite Loop
+This is an infinite Loop
+This is an infinite Loop
+This is an infinite Loop
+This is an infinite Loop
+This is an infinite Loop
+This is an infinite Loop
+
+
+1
+2
+3
+abc
+6
+7
+8
+9
+10
+
+= RESTART: C:/Users/Meenal Jain/Desktop/ML Training/day5.py
+1
+2
+3
+abc
+xyz
+6
+7
+
+= RESTART: C:/Users/Meenal Jain/Desktop/ML Training/day5.py
+i
+10
+j
+Traceback (most recent call last):
+  File "<pyshell#73>", line 1, in <module>
+    j
+NameError: name 'j' is not defined
+
+= RESTART: C:/Users/Meenal Jain/Desktop/ML Training/day5.py
+

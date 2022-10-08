@@ -1,0 +1,396 @@
+a=print('Hi How Are You?')
+Hi How Are You?
+a
+a
+a
+print(a)
+None
+def myfun():
+    print('THIS IS FIRST FUNCTION')
+
+    
+myfun()
+THIS IS FIRST FUNCTION
+print(a)
+None
+def second():
+    return 'C-block Seminar Hall'
+
+second()
+'C-block Seminar Hall'
+b=second()
+print(b)
+C-block Seminar Hall
+def third(x):
+    print('HELLO')
+
+    
+X
+Traceback (most recent call last):
+  File "<pyshell#19>", line 1, in <module>
+    X
+NameError: name 'X' is not defined
+x
+Traceback (most recent call last):
+  File "<pyshell#20>", line 1, in <module>
+    x
+NameError: name 'x' is not defined
+third(x)
+Traceback (most recent call last):
+  File "<pyshell#21>", line 1, in <module>
+    third(x)
+NameError: name 'x' is not defined
+third('C-block Seminar Hall')
+HELLO
+def fourth(x):
+    return x*10
+
+fourth('C-block Seminar Hall')
+'C-block Seminar HallC-block Seminar HallC-block Seminar HallC-block Seminar HallC-block Seminar HallC-block Seminar HallC-block Seminar HallC-block Seminar HallC-block Seminar HallC-block Seminar Hall'
+fourth(45)
+450
+def fourth(x):
+    print('hi')
+    print('hello')
+    print('how r u?')
+    return x*10
+
+fourth(10)
+hi
+hello
+how r u?
+100
+fourth('C-block Seminar Hall')
+hi
+hello
+how r u?
+'C-block Seminar HallC-block Seminar HallC-block Seminar HallC-block Seminar HallC-block Seminar HallC-block Seminar HallC-block Seminar HallC-block Seminar HallC-block Seminar HallC-block Seminar Hall'
+
+= RESTART: C:/Users/Meenal Jain/AppData/Local/Programs/Python/Python310/day6.py
+fouth(10
+fourth(10)
+      
+SyntaxError: '(' was never closed
+
+
+= RESTART: C:/Users/Meenal Jain/AppData/Local/Programs/Python/Python310/day6.py
+fourth(10)
+      
+hi
+100
+def fifth(x,y,z):
+    return x=y=z
+SyntaxError: invalid syntax
+def fifth(x,y,z):
+    return x+y+z
+
+fifth(2,3,4)
+9
+def sixth(x,y)
+SyntaxError: expected ':'
+def sixth(x,y):
+    return x+y,x-y
+
+sixth(5,3)
+(8, 2)
+def seventh(x,y):
+    return x+y
+    return x*y
+
+seventh(4,5)
+9
+def seventh(x,y):
+    return x+y , x*y
+
+seventh(56,78)
+(134, 4368)
+def maths(a,b,c,d,e):
+    return ((a+b+c)*d)/e , a+b+c+d+e
+
+maths(4,6,8,10,2)
+(90.0, 30)
+six(a=4,b=54,c=72)
+Traceback (most recent call last):
+  File "<pyshell#61>", line 1, in <module>
+    six(a=4,b=54,c=72)
+NameError: name 'six' is not defined
+sixth(a=4,b=54,c=72)
+Traceback (most recent call last):
+  File "<pyshell#62>", line 1, in <module>
+    sixth(a=4,b=54,c=72)
+TypeError: sixth() got an unexpected keyword argument 'a'
+sixth(x=4,y=54)
+(58, -50)
+def seven(x=1,y,z=1):
+    
+SyntaxError: non-default argument follows default argument
+def seven(x=1,y=1,z=1):
+    return x+y+z
+
+seven()
+3
+eight()
+Traceback (most recent call last):
+  File "<pyshell#69>", line 1, in <module>
+    eight()
+NameError: name 'eight' is not defined
+def eight(x):
+    return x
+
+eight()
+Traceback (most recent call last):
+  File "<pyshell#73>", line 1, in <module>
+    eight()
+TypeError: eight() missing 1 required positional argument: 'x'
+def eight(*x):
+    return x
+
+eight()
+()
+eight(2,3,4)
+(2, 3, 4)
+def nine(**x)
+SyntaxError: expected ':'
+def nine(**x):
+    return x
+
+nine()
+{}
+nine(name='Meenal',email='meenall@6051')
+{'name': 'Meenal', 'email': 'meenall@6051'}
+nine(n1=0,n2=[11,10,12],n3=['ab','bc','cd'])
+{'n1': 0, 'n2': [11, 10, 12], 'n3': ['ab', 'bc', 'cd']}
+def tenth(*x):
+    return JAIPUR ENGINEERING COLLEGE AND RESEARCH X
+SyntaxError: invalid syntax
+def tenth(x):
+    return JAIPUR ENGINEERING COLLEGE AND RESEARCH X
+SyntaxError: invalid syntax
+def tenth(x):
+    return JAIPUR X
+SyntaxError: invalid syntax
+def tenth(x):
+    return JAIPURX
+
+tenth(ENGINEERING COLLEGE AND RESEARCH CENTRE)
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+tenth('ENGINEERING COLLEGE AND RESEARCH CENTRE')
+Traceback (most recent call last):
+  File "<pyshell#92>", line 1, in <module>
+    tenth('ENGINEERING COLLEGE AND RESEARCH CENTRE')
+  File "<pyshell#90>", line 2, in tenth
+    return JAIPURX
+NameError: name 'JAIPURX' is not defined
+def tenth(x):
+    return X
+
+def tenth(x):
+    return X"JECRC FOUNDATION"
+SyntaxError: invalid syntax
+def tenth(x):
+    return x*"JECRC FOUNDATION"
+
+tenth(3)
+'JECRC FOUNDATIONJECRC FOUNDATIONJECRC FOUNDATION'
+def birthday(name):
+    print('HAPPY BIRTHDAY TO YOU')
+    print('HAPPY BIRTHDAY TO YOU')
+    
+KeyboardInterrupt
+def birthday(name):
+    print('HAPPY BIRTHDAY TO YOU')
+    print('HAPPY BIRTHDAY TO YOU')
+    print('HAPPY BIRTHDAY DEAR (name)')
+    print('HAPPY BIRTHDAY TO YOU')
+
+    
+birthday('MEENAL')
+HAPPY BIRTHDAY TO YOU
+HAPPY BIRTHDAY TO YOU
+HAPPY BIRTHDAY DEAR (name)
+HAPPY BIRTHDAY TO YOU
+def birthday(name):
+    print('HAPPY BIRTHDAY TO YOU')
+    print('HAPPY BIRTHDAY TO YOU')
+    print('HAPPY BIRTHDAY DEAR ('name')')
+    print('HAPPY BIRTHDAY TO YOU')
+    
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+def birthday(name):
+    print('HAPPY BIRTHDAY TO YOU')
+    print('HAPPY BIRTHDAY TO YOU')
+    print('HAPPY BIRTHDAY DEAR')*(name)
+    print('HAPPY BIRTHDAY TO YOU')
+
+    
+birthday('MEENAL')
+HAPPY BIRTHDAY TO YOU
+HAPPY BIRTHDAY TO YOU
+HAPPY BIRTHDAY DEAR
+Traceback (most recent call last):
+  File "<pyshell#110>", line 1, in <module>
+    birthday('MEENAL')
+  File "<pyshell#109>", line 4, in birthday
+    print('HAPPY BIRTHDAY DEAR')*(name)
+TypeError: can't multiply sequence by non-int of type 'NoneType'
+def birthday(name):
+    print('HAPPY BIRTHDAY TO YOU')
+    print('HAPPY BIRTHDAY TO YOU')
+    print('HAPPY BIRTHDAY DEAR')*('name')
+    print('HAPPY BIRTHDAY TO YOU')
+
+    
+def birthday(name):
+    print('HAPPY BIRTHDAY TO YOU')
+    print('HAPPY BIRTHDAY TO YOU')
+    print('HAPPY BIRTHDAY DEAR',name)
+    print('HAPPY BIRTHDAY TO YOU')
+
+    
+birthday('MEENAL')
+HAPPY BIRTHDAY TO YOU
+HAPPY BIRTHDAY TO YOU
+HAPPY BIRTHDAY DEAR MEENAL
+HAPPY BIRTHDAY TO YOU
+def birthday(name):
+    print('HAPPY BIRTHDAY TO YOU')
+    print('HAPPY BIRTHDAY TO YOU')
+    print('HAPPY BIRTHDAY DEAR',name)
+    print('HAPPY BIRTHDAY TO YOU')
+
+    
+birthday('KINJAL DADI MAA')
+HAPPY BIRTHDAY TO YOU
+HAPPY BIRTHDAY TO YOU
+HAPPY BIRTHDAY DEAR KINJAL DADI MAA
+HAPPY BIRTHDAY TO YOU
+def birthday(name):
+    print('HAPPY BIRTHDAY TO YOU')
+    print('HAPPY BIRTHDAY TO YOU')
+    print('HAPPY BIRTHDAY DEAR (name)')
+    print('HAPPY BIRTHDAY TO YOU')
+
+    
+birthday('JECRC SELFISH')
+HAPPY BIRTHDAY TO YOU
+HAPPY BIRTHDAY TO YOU
+HAPPY BIRTHDAY DEAR (name)
+HAPPY BIRTHDAY TO YOU
+def birthday(name):
+    print('HAPPY BIRTHDAY TO YOU')
+    print('HAPPY BIRTHDAY TO YOU')
+    print(f'HAPPY BIRTHDAY DEAR (name)')
+    print('HAPPY BIRTHDAY TO YOU')
+
+    
+birthday('SELFISH JECRC')
+HAPPY BIRTHDAY TO YOU
+HAPPY BIRTHDAY TO YOU
+HAPPY BIRTHDAY DEAR (name)
+HAPPY BIRTHDAY TO YOU
+def birthday(name):
+    print('HAPPY BIRTHDAY TO YOU')
+    print('HAPPY BIRTHDAY TO YOU')
+    print(f'HAPPY BIRTHDAY DEAR {name}')
+    print('HAPPY BIRTHDAY TO YOU')
+
+    
+birthday('SELFISH JECRC')
+HAPPY BIRTHDAY TO YOU
+HAPPY BIRTHDAY TO YOU
+HAPPY BIRTHDAY DEAR SELFISH JECRC
+HAPPY BIRTHDAY TO YOU
+ def myfun(x,y,z):
+     
+SyntaxError: unexpected indent
+def myfun(x,y,z):
+    return x+y+z
+
+myfun(3,6,9)
+18
+myadd = lambda x,y,z: x+y+z
+myadd(3,6,9)
+18
+import math
+math.pi
+3.141592653589793
+math.sqrt(81)
+9.0
+math.pow(2,3)
+8.0
+math.fac(5)
+Traceback (most recent call last):
+  File "<pyshell#139>", line 1, in <module>
+    math.fac(5)
+AttributeError: module 'math' has no attribute 'fac'
+math.factorial(5)
+120
+import math as m
+m.pi
+3.141592653589793
+m.sqrt(121)
+11.0
+from math import sqrt
+sqrt(121)
+11.0
+import datetime as dt
+aaj_ki_date=dt.date.today()
+print(aaj_ki_date)
+2022-09-19
+import calendar as cd
+print(cd.calendar(2022))
+                                  2022
+
+      January                   February                   March
+Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su
+                1  2          1  2  3  4  5  6          1  2  3  4  5  6
+ 3  4  5  6  7  8  9       7  8  9 10 11 12 13       7  8  9 10 11 12 13
+10 11 12 13 14 15 16      14 15 16 17 18 19 20      14 15 16 17 18 19 20
+17 18 19 20 21 22 23      21 22 23 24 25 26 27      21 22 23 24 25 26 27
+24 25 26 27 28 29 30      28                        28 29 30 31
+31
+
+       April                      May                       June
+Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su
+             1  2  3                         1             1  2  3  4  5
+ 4  5  6  7  8  9 10       2  3  4  5  6  7  8       6  7  8  9 10 11 12
+11 12 13 14 15 16 17       9 10 11 12 13 14 15      13 14 15 16 17 18 19
+18 19 20 21 22 23 24      16 17 18 19 20 21 22      20 21 22 23 24 25 26
+25 26 27 28 29 30         23 24 25 26 27 28 29      27 28 29 30
+                          30 31
+
+        July                     August                  September
+Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su
+             1  2  3       1  2  3  4  5  6  7                1  2  3  4
+ 4  5  6  7  8  9 10       8  9 10 11 12 13 14       5  6  7  8  9 10 11
+11 12 13 14 15 16 17      15 16 17 18 19 20 21      12 13 14 15 16 17 18
+18 19 20 21 22 23 24      22 23 24 25 26 27 28      19 20 21 22 23 24 25
+25 26 27 28 29 30 31      29 30 31                  26 27 28 29 30
+
+      October                   November                  December
+Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su
+                1  2          1  2  3  4  5  6                1  2  3  4
+ 3  4  5  6  7  8  9       7  8  9 10 11 12 13       5  6  7  8  9 10 11
+10 11 12 13 14 15 16      14 15 16 17 18 19 20      12 13 14 15 16 17 18
+17 18 19 20 21 22 23      21 22 23 24 25 26 27      19 20 21 22 23 24 25
+24 25 26 27 28 29 30      28 29 30                  26 27 28 29 30 31
+31
+
+print(cd.month(2022,9))
+   September 2022
+Mo Tu We Th Fr Sa Su
+          1  2  3  4
+ 5  6  7  8  9 10 11
+12 13 14 15 16 17 18
+19 20 21 22 23 24 25
+26 27 28 29 30
+
+print(cd.month(2022,6))
+     June 2022
+Mo Tu We Th Fr Sa Su
+       1  2  3  4  5
+ 6  7  8  9 10 11 12
+13 14 15 16 17 18 19
+20 21 22 23 24 25 26
+27 28 29 30
+

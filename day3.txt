@@ -1,0 +1,24 @@
+a='Hello'
+He
+a[starting point(by default 0):stop (Excluding):step(b.d1)]
+       (including)
+
+a[0:2]
+--------------------------------------------
+List
+1. []
+2. homo/hetro
+3. mutable
+4. indexing/slicing, loop
+----------------------------------------------
+Tuple
+1. ( )
+2. comma sep val
+3. immutable
+4. homo/hetro
+5. indexing/Slicing
+-----------------------------------
+Set
+1. unordered
+2. indexing/ slicing (no use)
+3. Unique collection
